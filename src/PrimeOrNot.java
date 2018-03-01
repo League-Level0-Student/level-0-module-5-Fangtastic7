@@ -5,10 +5,15 @@ public class PrimeOrNot {
 		
 	String anynumber = JOptionPane.showInputDialog("Give me a number.");
 	int number = Integer.parseInt(anynumber);
-	for(int i=0;i<3;i++) {
-	for(int r=0;r<2;r++)	{
-		
-	}
+	for(int i=2;i<=number-1;i++) {
+		if(number%i==0) {
+			System.out.println("Not Prime");
+			break;
 		}
+		if(i==number-1) {
+			System.out.println("Prime");
+			break;
+		}
+	}
 	}
 }
