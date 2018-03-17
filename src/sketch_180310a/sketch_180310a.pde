@@ -55,7 +55,14 @@ for(int i=0;i<101;i++){
 System.out.println();
   String star ="*";
 for(int p=1;p<7;p++){
-  int star1 = Integer.parseInt(star);
   
+  for(int i=0;i<p;i++){
+  System.out.print(star);
+  }
   System.out.println();
+}
+System.out.println();
+
+for(int i=0;i<100;i++){
+  System.out.println(100-i);
 }
